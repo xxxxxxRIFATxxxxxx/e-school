@@ -1,0 +1,70 @@
+/* Common CSS */
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+p {
+    color: #6C6B6B;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orange-text {
+    color: #FD511A;
+}
+
+.green-text {
+    color: #21B573;
+}
+
+.light-black-text {
+    color: #413960;
+}
+
+.green-round-btn {
+    padding: 10px 28px;
+    width: 104px;
+    background-color: #21B573;
+}
+
+.green-round-btn:hover {
+    background-color: #1c9961;
+}
+
+/* Navbar CSS */
+.nav-section {
+    background-color: #F0FFF0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+/* Top Banner CSS */
+.top-banner {
+    background-color: #F0FFF0;
+}
+
+.top-banner .card {
+    background-color: transparent;
+    border: none;
+} 
+
+/* Categories CSS */
+.categories .card {
+    background-color: #F8FFFB;
+    border: none;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #282531;
+    color: #CDCDCD;
+}
+
+footer span {
+    color: #21B573;
+}
