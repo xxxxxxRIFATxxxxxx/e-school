@@ -30,7 +30,13 @@ a {
     background-color: #21B573;
 }
 
-.green-round-btn:hover {
+.green-round-small-btn {
+    padding: 8px 28px;
+    font-size: 14px;
+    background-color: #21B573;
+}
+
+.green-round-btn:hover, .green-round-small-btn:hover {
     background-color: #1c9961;
 }
 
@@ -59,12 +65,63 @@ a {
     border: none;
 }
 
+/* Courses */
+.courses .card {
+    border: none;
+    border-radius: 18px;
+}
+
+.courses .card-footer {
+    background-color: transparent;
+    border: none;
+    color: #585859;
+}
+
+.calendar-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Testimonial */
+.testimonial .card {
+    padding: 0 220px;
+    border: none;
+}
+
+.client-img {
+    width: 150px;
+}
+
 /* Footer CSS */
 footer {
     background-color: #282531;
+}
+
+footer .card {
+    background-color: transparent;
+    border: none;
+}
+
+footer a {
+    color: #6C6B6B;
+    font-size: 14px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border:none;
+    padding: 0 0 2px 0;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+.copyright {
     color: #CDCDCD;
 }
 
-footer span {
+.copyright span {
     color: #21B573;
 }
